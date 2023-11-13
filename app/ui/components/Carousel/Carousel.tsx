@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+/* eslint-disable react/no-unescaped-entities */
 const Carousel = () => {
   return (
     <section>
@@ -7,8 +10,8 @@ const Carousel = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="card h-100">
-                <img src="/prop1.jpg" className="card-img-top" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop1.jpg" className="card-img-top" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Departamento de venta
@@ -43,8 +46,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card h-100">
-                <img src="/prop2.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg " alt="Logo" />
+                <Image src="/prop2.jpg" className="d-blog w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">Casa de campo</h5>
                   <h5 className="card-title text-primary">$ ; 1.250 / mes</h5>
@@ -77,8 +80,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop3.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop3.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Hermosa casa con piscina
@@ -113,8 +116,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop4.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop4.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Moderna casa por estrenar
@@ -149,8 +152,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop5.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop5.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Departamento en Cumbaya
@@ -185,8 +188,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop6.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop6.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Apartamento centro histórico
@@ -221,8 +224,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop7.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+              <Image src="/prop7.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Casa en la playa
@@ -257,8 +260,8 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <div className="card  h-100">
-                <img src="/prop8.jpg" className="d-block w-100" alt="..." />
-                <img src="/logoASF.svg" alt="Logo" />
+                <Image src="/prop8.jpg" className="d-block w-100" alt="..." />
+                <Image src="/logoASF.svg" alt="Logo" />
                 <div className="card-body">
                   <h5 className="card-title text-secondary">
                     Casa con vista al mar
