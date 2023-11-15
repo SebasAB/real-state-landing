@@ -1,0 +1,75 @@
+/* .carouselInner {
+  padding: 1em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.carouselControlPrev,
+.carouselControlNext {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .carouselItem {
+    margin-right: 0;
+    flex: 0 0 33.33%;
+    display: block;
+  }
+  .carouselInner {
+    display: flex;
+  }
+  .myInput {
+    width: 50%;
+  }
+}
+
+@media (max-width: 990px) {
+  .contats-list ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.card .img-wrapper {
+  max-width: 100%;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
+
+.badgeVenta {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(28, 92, 230);
+}
+.badgeArriendo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(230, 159, 28);
+}
+
+.badge-venta-r {
+  background-color: rgb(28, 92, 230);
+}
+.badge-arriendo-r {
+  background-color: rgb(230, 159, 28);
+} */
